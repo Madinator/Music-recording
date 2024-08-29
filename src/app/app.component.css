@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.playable {
+  cursor: pointer;
+}
+
+.audio-player {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+
+.mat-header-cell {
+  white-space: nowrap;
+  padding: 8px 16px;
+}
+
+.mat-cell {
+  white-space: normal;    
+  word-wrap: break-word;  
+  word-break: break-all;  
+  padding: 8px 16px;     
+}
